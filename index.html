@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navleft">
+                <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+            </div>
+            <div class="navright">
+                <ul>
+                    <li><a href="#home_section" class="navitem">Home</a></li>
+                    <li><a href="#About" class="navitem">About Us</a></li>
+                    <li><a href="#services" class="navitem">Services</a></li>
+                    <li><a href="#contact" class="navitem">Contacts</a></li>
+                    <a></a>
+                    <button class="joinbtn">Join Now</button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home_section">
+        <div class="home">
+            <div class="hometext">
+                <h4 style="font-size: 2rem;">BEST FITNESS IN THE TOWN</h4>
+                <h1 style="font-size: 4rem; font-weight: 900;"><span style="-webkit-text-fill-color: transparent;-webkit-text-stroke: 1px white;">MAKE</span> YOUR BODY SHAPE</h1>
+                <p style="font-size: 1.5rem;">
+                    We are committed to helping you reach your fitness goals. Whether you’re looking to build muscle, lose weight, or improve your overall health, we are here to support you on your fitness journey.
+                </p>
+                <button style="margin: 2rem 0; font-size: 2.1rem; padding: 1rem; background-color: #D79447; border-radius: 7px; border: 1px solid white;" class="btn">Get Started</button>
+                </div>
+                <div class="homeimage">
+                    <img class="homeimg"src="assets/home.png" alt="header" />
+                </div>
+        </div>  
+        <hr>
+    </section>
+    <section id="About" class="section_about">
+        <div class="about">
+        <div class="about_img">
+            <img   src="assets/join.jpg" alt="workoutimage"/>
+            <div class="abt_text" style="-webkit-text-fill-color: transparent;-webkit-text-stroke: 3px white; ">About Us</div>
+            <p>Welcome to FIT CLUB, your fitness destination! We are a passionate community dedicated to helping individuals of all fitness levels achieve their health and wellness goals. Whether you're a beginner taking your first step towards a healthier lifestyle or an athlete looking to take your performance to the next level, we’re here to support you every step of the way.<br><br>
+                Our mission is to inspire and empower people to live healthier, stronger, and more active lives. We believe that fitness is not just about working out—it's about building a mindset that fosters overall well-being. Our goal is to provide a welcoming environment where everyone can achieve their personal fitness aspirations.
+            </p>
+        </div>
+        </div>
+    </section>
+    <hr>
+    <section id="services" class="section_services">
+        <div class="services">
+            <h1 style="margin: 2rem 0; font-size: 2.5rem;">Services</h1>
+            <div class="card-container">
+                <div class="card-wrapper">
+                  <div class="card">Personal Training<br>One-on-one sessions with certified trainers to help clients achieve their fitness goals faster and more effectively. </div>
+                  <div class="card">Nutrition Counseling<br>Guidance on healthy eating, meal planning, and dietary advice to complement workout routines and help individuals achieve their health and fitness goals.</div>
+                  <div class="card">Massage Therapy<br>Professional massage services to help with muscle recovery, reduce soreness, improve flexibility, and promote relaxation after intense workouts.</div>
+                  <div class="card">Fitness Assessments<br> Initial and ongoing evaluations to measure an individual’s fitness level, track progress, and set personalized goals</div>
+                  <div class="card">Childcare Services<br>Many gyms offer childcare areas where parents can leave their children while they work out, making it more convenient for parents to maintain their fitness routines.</div>
+                  <div class="card">Group Fitness<br>Structured group sessions led by instructors, such as yoga, pilates, Zumba, cycling,etc</div>
+                </div>
+                <div class="controls">
+                  <button class="control-button" id="scroll-left">←</button>
+                  <button class="control-button" id="scroll-right">→</button>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="contact" class="section_contact">
+        <div class="section-title">
+            <h2 style="margin: 1rem;">Contacts</h2>
+        </div>
+          <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+      
+            <button type="submit">Send Message</button>
+          </form>
+    </section>
+    <footer>
+        <div id="footer" class="footer">
+            <h1>Fitclub Fitness</h1>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Sumit Prajapati. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

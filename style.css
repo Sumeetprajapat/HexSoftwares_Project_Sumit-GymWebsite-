@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-color:#201D1B;
+    --text-color:white;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+hr{
+    width: 85%;        
+    margin: 0 auto;     
+    border: 1px solid rgb(95, 62, 39);
+}
+
+/* Navbar */
+
+nav{
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 23px;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.navitem{
+    text-decoration: none;
+    color: white;
+}
+
+.navitem:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+a{
+    font-size: 1.4rem;
+}
+
+.joinbtn{
+   background-color: #D79447; 
+   font-size: 1rem;
+   padding: 8px;
+   border-radius: 4px;
+   border: 2px solid white;
+   &:hover{
+    background-color: orange;
+    color: white;
+   }
+}
+
+/* Home */
+.home{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+h4{
+    color: orange;
+
+}
+
+.hometext{
+    margin: 2rem;
+    margin-top: 9rem;
+}
+
+.homeimage{
+    width: 700px;
+    height: auto;
+}
+
+.homeimg{
+    width: 400px;
+    height: 600px;
+}
+
+/* About */
+
+.section_about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_img{
+    display: flex;
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.about_img img{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.abt_text{
+    position: absolute;
+    top: 1%;
+    left: 29%;
+    opacity: 0.4; 
+    font-size: 10rem;
+}
+
+.about_img p{
+    position: absolute;
+    top: 30%;
+    font-size: 2rem;
+    opacity: 0.4;
+    text-align: center;
+    padding: 35px
+}
+
+/* Services */
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: var(--background-color);
+    margin: 2rem 0;
+  }
+
+
+  .card-container {
+    display: flex;
+    overflow: hidden;
+    width: 80vw; 
+    position: relative;
+    margin: 0 20px;
+  }
+
+  .card-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out; 
+    text-align: center;
+  }
+
+  .card {
+    min-width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    background-color: #44352b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  .controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .control-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .control-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+
+  /* Contact */
+
+  .section-title{
+    display: flex;
+    justify-content: center;
+  }
+
+  #contact-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid #44352b;
+    border-radius: 8px;
+    background-color: #905b38;
+  }
+
+  #contact-form label{
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+
+  #contact-form input,textarea{
+    width: 50%;
+    height: 2rem;
+    border: 2px solid #604737;
+    border-radius: 8px;
+  }
+
+  #contact-form button{
+    width: 20%;
+    padding: 0.7rem;
+    background-color: #d36217;
+    margin: 1rem;
+    border-radius: 8px;
+    &:hover{
+        background-color: #e0af0f;
+        color: white;
+    }
+  }
+
+  /* Footer */
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.footer h1{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #d36217; 
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+
+
+
